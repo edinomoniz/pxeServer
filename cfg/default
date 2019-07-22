@@ -1,0 +1,11 @@
+# File : Default
+
+#MENU BACKGROUND boot-screens/logo.png
+default menu.c32
+prompt 1
+timeout 100
+TOTALTIMEOUT 1000
+menu title UniqueX PXE Server
+    include boot-screens/logo.png
+
+include pxelinux.cfg/ubuntu-server.cfg
